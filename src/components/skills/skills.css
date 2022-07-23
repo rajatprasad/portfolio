@@ -1,0 +1,19 @@
+/* .skills {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+
+.skills > h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 10%;
+}
+
+.top__icon {
+  width: 100px;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}

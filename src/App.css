@@ -1,0 +1,14 @@
+.App {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+#light {
+  background-color: #f7fafc;
+  color: #2d3748;
+}
+
+#dark {
+  background-color: #171923;
+  color: rgba(255, 255, 255, 0.92);
+}
