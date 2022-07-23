@@ -1,12 +1,12 @@
 import "./projects.css";
 import { AiFillGithub } from "react-icons/ai";
 import { BiLinkExternal } from "react-icons/bi";
-import project1 from "./images/project1.png";
-import project2 from "./images/project2.png";
+import project1 from "../../images/project1.png";
+import project2 from "../../images/project2.png";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="project__container">
         <h2 className="title">Projects</h2>
         <div className="project__content">
@@ -29,10 +29,18 @@ const Projects = () => {
               on hashnode's Weekly digest.
             </p>
             <div className="project__link">
-              <a href="https://github.com/rajatprasad/Netflix">
+              <a
+                href="https://github.com/rajatprasad/Netflix"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <AiFillGithub className="github" />
               </a>
-              <a href="netflix-6361e.web.app/">
+              <a
+                href="netflix-6361e.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <BiLinkExternal className="link" />
               </a>
             </div>
@@ -59,10 +67,18 @@ const Projects = () => {
               on hashnode's Weekly digest.
             </p>
             <div className="project__link">
-              <a href="https://github.com/rajatprasad/Netflix">
+              <a
+                href="https://github.com/rajatprasad/hungry"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <AiFillGithub className="github" />
               </a>
-              <a href="https://hungry-rajat.netlify.app/">
+              <a
+                href="https://hungry-rajat.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <BiLinkExternal className="link" />
               </a>
             </div>

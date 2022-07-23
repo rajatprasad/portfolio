@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import profilePic from "./images/profile1.jpeg";
+import profilePic from "../../images/profile1.jpeg";
 import { AiFillGithub } from "react-icons/ai";
 import { BsFillMoonFill } from "react-icons/bs";
 import { GoThreeBars } from "react-icons/go";
@@ -37,15 +37,22 @@ const Navbar = ({ themeF }) => {
         </button>
         <div className="navbar__left">
           <div className="navbar__logo">
-            <img src={profilePic} alt="profilepic" />
+            <a href="#hero">
+              <img src={profilePic} alt="profilepic" />
+            </a>
           </div>
           <div className="navbar__items">
-            <a href="#/about">About</a>
-            <a href="#/Projects">Projects</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
         <div className="navbar__right">
-          <a className="navbar__github" href="https://github.com/rajatprasad">
+          <a
+            className="navbar__github"
+            href="https://github.com/rajatprasad"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillGithub />
           </a>
           <button onClick={themeToggle} className="nightmode__button">
@@ -55,11 +62,11 @@ const Navbar = ({ themeF }) => {
       </div>
       <div className={"navbar__menu" + (toggleNav ? " hide" : "")}>
         <nav className="navbar__menuItems">
-          <a className="navbar__menuItem" href="#/about">
-            About
-          </a>
-          <a className="navbar__menuItem" href="#/projects">
+          <a className="navbar__menuItem" href="#projects">
             Projects
+          </a>
+          <a className="navbar__menuItem" href="#contact">
+            Contact
           </a>
         </nav>
       </div>

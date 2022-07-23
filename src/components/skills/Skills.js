@@ -18,7 +18,7 @@ import Marquee from "react-fast-marquee";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <h2>Tech Stack</h2>
       <Marquee speed={70} gradient={false}>
         <div className="top">

@@ -1,16 +1,17 @@
 .projects {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   margin-bottom: 2.5rem;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .title {
-  margin-top: 0;
+  padding-top: 3rem;
   font-size: 1.875rem;
   line-height: 1.25rem;
   font-weight: 700;
   text-align: left;
+  margin-bottom: 4rem;
 }
 
 .project__content {

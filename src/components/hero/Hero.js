@@ -1,10 +1,10 @@
 import React from "react";
 import "./hero.css";
-import profilePic from "./images/profile1.jpeg";
+import profilePic from "../../images/profile1.jpeg";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="hero__main">
         <div className="hero__profileImg">
           <img src={profilePic} alt="" />

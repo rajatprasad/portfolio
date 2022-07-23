@@ -43,6 +43,11 @@
   cursor: pointer;
 }
 
+.highlights__list li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .highlights__newTag {
   display: inline-block;
   white-space: nowrap;
